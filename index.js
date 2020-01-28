@@ -20,7 +20,7 @@ return fetch("http://localhost:3000/users", configObj)
     return response.json();
   })
   .then(function(object) {
-    document.body.append(object);
+    document.body.appendChild(object);
   })
   .catch(function(error) {
     document.body.append(error.message)
