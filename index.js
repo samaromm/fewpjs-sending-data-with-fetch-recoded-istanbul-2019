@@ -23,7 +23,6 @@ return fetch("http://localhost:3000/users", configObj)
     console.log(object);
   })
   .catch(function(error) {
-    alert("Bad things! Ragnarők!");
-    console.log(error.message);
+    document.body.append(error.message)
   });
 }
