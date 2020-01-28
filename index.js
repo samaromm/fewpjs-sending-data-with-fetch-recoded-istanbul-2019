@@ -2,8 +2,8 @@
 
 function submitData(uName, uEmail){
   let formData = {
-  dogName: "Byron",
-  dogBreed: "Poodle"
+  name: uName,
+  email: uEmail
 };
  
 // method: "POST" is missing from the object below
